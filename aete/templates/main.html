@@ -6,7 +6,6 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <title> A.E.T.E |  Association of Electronics engineers </title>
     <meta name="description" content="AETE, AETE stands for the Association of ElectronicS engineers whose aim is to cultivate a vibrant community that serves as a hub for collaboration, learning, and professional development. Our goal is to create an inclusive space where electronic engineering students can connect, share ideas, and embark on projects that showcase their skills.." />
@@ -28,8 +27,10 @@
     />
 
     <!-- Bootstrap core CSS -->
-    <link href=" {% static 'vendor/bootstrap/css/bootstrap.min.css' rel='stylesheet' %}">
+    <link href=" {% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href=" {% static 'css/fontawesome.css' %}">
@@ -57,6 +58,46 @@
   </div>
   <!-- ***** Preloader End ***** -->
 
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    {% comment %} <img src=" {% static 'images/aete-logo.png' %}"> {% endcomment %}
+                    <a href="index.html" class="logo">
+                        <h1>A.E.T.E</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Serach Start ***** -->
+                    <!-- <div class="search-input">
+                      <form id="search" action="#">
+                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
+                        <i class="fa fa-search"></i>
+                      </form>
+                    </div> -->
+                    <!-- ***** Serach Start ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li class="scroll-to-section"><a href="#" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="#">Gallery</a></li>
+                      <li class="scroll-to-section"><a href="#">Events</a></li>
+                      <li class="scroll-to-section"><a href="#">Others</a></li>
+                      <li class="scroll-to-section"><a href="#">Contact Us</a></li>
+                      <li class="scroll-to-section"><a href="#">Register Now!</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
   {% block content %}
 
   {% endblock %}
@@ -78,7 +119,7 @@
   <script src=" {% static "js/isotope.min.js" %}"></script>
   <script src=" {% static "js/owl-carousel.js" %}"></script>
   <script src=" {% static "js/counter.js" %}"></script>
-  <script src=" {% static "js/custom.js" %} "></script>
+  <script src=" {% static "js/custom.js" %}"></script>
 
   </body>
 </html>

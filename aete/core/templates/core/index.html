@@ -1,45 +1,6 @@
 {% extends 'main.html' %}
 {% load static %}
 {% block content %}
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                      <img src=" {% static 'images/aete-logo.png' %}">
-                        <h1>A.E.T.E</h1>
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Serach Start ***** -->
-                    <!-- <div class="search-input">
-                      <form id="search" action="#">
-                        <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
-                        <i class="fa fa-search"></i>
-                      </form>
-                    </div> -->
-                    <!-- ***** Serach Start ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li class="scroll-to-section"><a href="#" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="#">Gallery</a></li>
-                      <li class="scroll-to-section"><a href="#events">Events</a></li>
-                      <li class="scroll-to-section"><a href="#">Others</a></li>
-                      <li class="scroll-to-section"><a href="#">Contact Us</a></li>
-                      <li class="scroll-to-section"><a href="#">Register Now!</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
-        </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
 
   <div class="main-banner" id="top">
     <div class="container">
@@ -48,15 +9,15 @@
           <div class="owl-carousel owl-banner">
             <div class="item item-1">
               <div class="header-text">
-                <span class="category">Our Courses</span>
-                <h2>With Scholar Teachers, Everything Is Easier</h2>
-                <p>Scholar is free CSS template designed by TemplateMo for online educational related websites. This layout is based on the famous Bootstrap v5.3.0 framework.</p>
+                <span class="category">Why A.E.T.E?</span>
+                <h2>Association of Electronics Engineers</h2>
+                <p>Association envisions a dynamic community of students passionate about innovation and technology. Focused on fostering collaboration, knowledge-sharing, and hands-on experience</p>
                 <div class="buttons">
                   <div class="main-button">
-                    <a href="#">Request Demo</a>
+                    <a href="#">Watch Here -> </a>
                   </div>
                   <div class="icon-button">
-                    <a href="#"><i class="fa fa-play"></i> What's Scholar?</a>
+                    <a href="#"><i class="fa fa-play"></i> What's AETE?</a>
                   </div>
                 </div>
               </div>
@@ -64,11 +25,11 @@
             <div class="item item-2">
               <div class="header-text">
                 <span class="category">Best Result</span>
-                <h2>Get the best result out of your effort</h2>
-                <p>You are allowed to use this template for any educational or commercial purpose. You are not allowed to re-distribute the template ZIP file on any other website.</p>
+                <h2>Get the best result out of your hard work & time</h2>
+                <p>We, at Association always aim to empower future engineers with skills that transcend traditional boundaries, driving excellence in electronics and shaping a cutting-edge technological landscape.</p>
                 <div class="buttons">
                   <div class="main-button">
-                    <a href="#">Request Demo</a>
+                    <a href="#">Watch Here -> </a>
                   </div>
                   <div class="icon-button">
                     <a href="#"><i class="fa fa-play"></i> What's the best result?</a>
@@ -78,12 +39,12 @@
             </div>
             <div class="item item-3">
               <div class="header-text">
-                <span class="category">Online Learning</span>
-                <h2>Online Learning helps you save the time</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporious incididunt ut labore et dolore magna aliqua suspendisse.</p>
+                <span class="category">Our Goal</span>
+                <h2>Our Vision is to cultivate a vibrant community</h2>
+                <p>AETE is for collaboration, learning, and professional development. Our goal is to create an inclusive space where students can connect, share ideas, and embark on projects to gain skills.</p>
                 <div class="buttons">
                   <div class="main-button">
-                    <a href="#">Request Demo</a>
+                    <a href="#">Watch Here -> </a>
                   </div>
                   <div class="icon-button">
                     <a href="#"><i class="fa fa-play"></i> What's Online Course?</a>
@@ -103,11 +64,11 @@
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
-              <img src="assets/images/service-01.png" alt="online degrees">
+              <img src="{% static 'images/service-01.png' %}" alt="online degrees">
             </div>
             <div class="main-content">
-              <h4>Online Degrees</h4>
-              <p>Whenever you need free templates in HTML CSS, you just remember TemplateMo website.</p>
+              <h4>Orientation</h4>
+              <p>In the orientation for 1st Year Students, a comprehensive introduction to foundational concepts and curriculum structure is provided. Faculty members typically offer insights into the program, guiding students on academic expectations and resources available. Lab equipment familiarization is a key component, ensuring students are comfortable with hands-on applications. </p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -117,11 +78,11 @@
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
-              <img src="assets/images/service-02.png" alt="short courses">
+              <img src="{% static 'images/service-02.png' %}" alt="short courses">
             </div>
             <div class="main-content">
-              <h4>Short Courses</h4>
-              <p>You can browse free templates based on different tags such as digital marketing, etc.</p>
+              <h4>Tech-Era</h4>
+              <p>Our Electro Tech Fest, a celebration that seamlessly blends technology, creativity, and community. Immerse yourself in insightful TED Talks where electronic visionaries share cutting-edge ideas and explore the future of technology. As the sun sets, our Cultural Night unfolds, offering a vibrant fusion of art and electronics—expect dazzling performances and interactive installations..</p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -131,11 +92,11 @@
         <div class="col-lg-4 col-md-6">
           <div class="service-item">
             <div class="icon">
-              <img src="assets/images/service-03.png" alt="web experts">
+              <img src="{% static 'images/service-03.png' %}" alt="web experts">
             </div>
             <div class="main-content">
-              <h4>Web Experts</h4>
-              <p>You can start learning HTML CSS by modifying free templates from our website too.</p>
+              <h4>Academic Conferences</h4>
+              <p>AETE is a pivotal platform for researchers, scholars, and professionals to converge and share cutting-edge advancements in the field. This event fosters collaboration and knowledge exchange, covering a spectrum of topics such as electronic circuits, signal processing, communication systems, and emerging technologies</p>
               <div class="main-button">
                 <a href="#">Read More</a>
               </div>
@@ -159,7 +120,8 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                  Welcome to the vibrant world of our Electronics Engineering Association! 🌐 As passionate students, we explore the ever-evolving realm of electronics through innovation and collaboration. Our association fosters a dynamic learning environment, blending theoretical knowledge with hands-on experiences. Join us to delve into cutting-edge technologies, workshops, and networking opportunities.⚡🔧 
+                  #ElectronicsEngineering #InnovationHub
                 </div>
               </div>
             </div>
@@ -171,19 +133,20 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                  Whether you're a seasoned enthusiast or just starting, our community welcomes all, offering a platform to share ideas and fuel your curiosity. Together, let's spark creativity, amplify skills, and electrify the future of electronics engineering!
+                  Have fun exploring!!
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Why SCHOLAR is the best?
+                  Why Association is here for us?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  There are more than one hundred responsive HTML templates to choose from <strong>Template</strong>Mo website. You can browse by different tags or categories.
+                  Interactive sessions and practical demonstrations play a crucial role in helping students grasp fundamental electronic principles. Introductions to support services and extracurricular opportunities contribute to a holistic understanding of the academic journey. Overall, the association aims to foster a positive and informed start for students embarking on their electronics education, providing essential knowledge and building a sense of community.
                 </div>
               </div>
             </div>
@@ -195,7 +158,7 @@
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  You can also search on Google with specific keywords such as <code>templatemo business templates, templatemo gallery templates, admin dashboard templatemo, 3-column templatemo, etc.</code>
+                  Our internship program provides a platform to apply theoretical concepts, fostering innovation and problem-solving. Collaborate with a diverse team, participate in challenging assignments, and unlock your potential in the rapidly evolving field of Electronics Engineering. Whether you're passionate about hardware design, embedded systems, or emerging technologies, our internship opportunities offer a unique chance to bridge the gap between academia and industry.
                 </div>
               </div>
             </div>
@@ -204,8 +167,8 @@
         <div class="col-lg-5 align-self-center">
           <div class="section-heading">
             <h6>About Us</h6>
-            <h2>What make us the best academy online?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravid risus commodo.</p>
+            <h2>What make us the best Association?</h2>
+            <p>Whether you're a seasoned athlete or a casual participant, there's something for every skill level. Embrace the spirit of friendly competition and celebrate the joy of sportsmanship as the Association comes alive with energy and enthusiasm. Join us for a day filled with sports, laughter, and the joy of being part of a vibrant community.</p>
             <div class="main-button">
               <a href="#">Discover More</a>
             </div>
@@ -215,112 +178,6 @@
     </div>
   </div>
 
-  <section class="section courses" id="courses" >
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <div class="section-heading">
-            <h6>Latest Courses</h6>
-            <h2>Latest Courses</h2>
-          </div>
-        </div>
-      </div>
-      <ul class="event_filter">
-        <li>
-          <a class="is_active" href="#!" data-filter="*">Show All</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".design">Webdesign</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".development">Development</a>
-        </li>
-        <li>
-          <a href="#!" data-filter=".wordpress">Wordpress</a>
-        </li>
-      </ul>
-      <div class="row event_box">
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
-              <span class="category">Webdesign</span>
-              <span class="price"><h6><em>$</em>160</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">Stella Blair</span>
-              <h4>Learn Web Design</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-02.jpg" alt=""></a>
-              <span class="category">Development</span>
-              <span class="price"><h6><em>$</em>340</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">Cindy Walker</span>
-              <h4>Web Development Tips</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design wordpress">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-03.jpg" alt=""></a>
-              <span class="category">Wordpress</span>
-              <span class="price"><h6><em>$</em>640</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">David Hutson</span>
-              <h4>Latest Web Trends</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 development">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-04.jpg" alt=""></a>
-              <span class="category">Development</span>
-              <span class="price"><h6><em>$</em>450</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">Stella Blair</span>
-              <h4>Online Learning Steps</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress development">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-05.jpg" alt=""></a>
-              <span class="category">Wordpress</span>
-              <span class="price"><h6><em>$</em>320</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">Sophia Rose</span>
-              <h4>Be a WordPress Master</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
-          <div class="events_item">
-            <div class="thumb">
-              <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
-              <span class="category">Webdesign</span>
-              <span class="price"><h6><em>$</em>240</h6></span>
-            </div>
-            <div class="down-content">
-              <span class="author">David Hutson</span>
-              <h4>Full Stack Developer</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <div class="section fun-facts">
     <div class="container">
@@ -365,7 +222,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="assets/images/member-01.jpg" alt="">
+              <img src="{% static 'images/member-01.jpg' %}" alt="">
               <span class="category">UX Teacher</span>
               <h4>Sophia Rose</h4>
               <ul class="social-icons">
@@ -379,7 +236,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="assets/images/member-02.jpg" alt="">
+              <img src="{% static 'images/member-01.jpg' %}" alt="">
               <span class="category">Graphic Teacher</span>
               <h4>Cindy Walker</h4>
               <ul class="social-icons">
@@ -393,7 +250,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="assets/images/member-03.jpg" alt="">
+              <img src="{% static 'images/member-01.jpg' %}" alt="">
               <span class="category">Full Stack Master</span>
               <h4>David Hutson</h4>
               <ul class="social-icons">
@@ -407,7 +264,7 @@
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="assets/images/member-04.jpg" alt="">
+              <img src="{% static 'images/member-01.jpg' %}" alt="">
               <span class="category">Digital Animator</span>
               <h4>Stella Blair</h4>
               <ul class="social-icons">
@@ -430,15 +287,15 @@
             <div class="item">
               <p>“Please tell your friends or collegues about TemplateMo website. Anyone can access the website to download free templates. Thank you for visiting.”</p>
               <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
+                <img src="{% static 'images/testimonial-author.jpg' %}" alt="">
                 <span class="category">Full Stack Master</span>
                 <h4>Claude David</h4>
               </div>
             </div>
             <div class="item">
-              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravid.”</p>
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.”</p>
               <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
+                <img src="{% static 'images/testimonial-author.jpg' %}" alt="">
                 <span class="category">UI Expert</span>
                 <h4>Thomas Jefferson</h4>
               </div>
@@ -446,7 +303,7 @@
             <div class="item">
               <p>“Scholar is free website template provided by TemplateMo for educational related websites. This CSS layout is based on Bootstrap v5.3.0 framework.”</p>
               <div class="author">
-                <img src="assets/images/testimonial-author.jpg" alt="">
+                <img src="{% static 'images/testimonial-author.jpg' %}" alt="">
                 <span class="category">Digital Animator</span>
                 <h4>Stella Blair</h4>
               </div>
@@ -478,7 +335,7 @@
             <div class="row">
               <div class="col-lg-3">
                 <div class="image">
-                  <img src="assets/images/event-01.jpg" alt="">
+                  <img src="{% static 'images/event-01.jpg' %}" alt="">
                 </div>
               </div>
               <div class="col-lg-9">
@@ -510,7 +367,7 @@
             <div class="row">
               <div class="col-lg-3">
                 <div class="image">
-                  <img src="assets/images/event-02.jpg" alt="">
+                  <img src="{% static 'images/event-01.jpg' %}" alt="">
                 </div>
               </div>
               <div class="col-lg-9">
@@ -542,7 +399,7 @@
             <div class="row">
               <div class="col-lg-3">
                 <div class="image">
-                  <img src="assets/images/event-03.jpg" alt="">
+                  <img src="{% static 'images/event-01.jpg' %}" alt="">
                 </div>
               </div>
               <div class="col-lg-9">
