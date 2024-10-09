@@ -1,5 +1,5 @@
 {% extends 'main.html' %}
-
+{% load static %}
 {% block content %}
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
@@ -9,7 +9,7 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.html" class="logo">
-                      <img src="assets/images/aete-logo.png">
+                      <img src=" {% static 'images/aete-logo.png' %}">
                         <h1>A.E.T.E</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
